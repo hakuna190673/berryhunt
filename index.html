@@ -70,8 +70,10 @@
 
     .tagline {
       font-size: 1.1rem;
-      opacity: 0.95;
-      font-weight: 500;
+      color: #ffffff;
+      opacity: 1;
+      font-weight: 600;
+      text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
     }
 
     nav {
@@ -189,6 +191,20 @@
       background: var(--primary-dark);
     }
 
+    .vibecoded-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: linear-gradient(135deg, #fce4ec 0%, #f3e5f5 100%);
+      color: #880e4f;
+      border: 1px solid #f8bbd0;
+      padding: 0.5rem 1rem;
+      border-radius: 999px;
+      font-size: 0.88rem;
+      font-weight: 600;
+      margin-top: 0.75rem;
+    }
+
     footer {
       text-align: center;
       padding: 2.5rem 1rem;
@@ -223,7 +239,7 @@
       <h2>🍓 About Berry Hunt</h2>
       <p>
         <strong>Berry Hunt</strong> is a vibrant 2D retro arcade platformer developed by <strong>Hakuna Games</strong>.
-        Take control of Jammy the adventurous mouse across 12 handcrafted levels, dodging obstacles,
+        Take control of Jammy the adventurous mouse across multiple handcrafted levels, dodging obstacles,
         climbing ladders, collecting golden berries, and competing for the highest scores.
       </p>
       <ul>
@@ -231,6 +247,9 @@
         <li><strong>Ad-Free Experience:</strong> 100% free of third-party advertisements and tracking.</li>
         <li><strong>Family Friendly:</strong> Suitable and safe for players of all ages.</li>
       </ul>
+      <div class="vibecoded-badge">
+        <span>✨</span> <strong>Built with modern AI:</strong> This project was proudly vibecoded.
+      </div>
     </section>
 
     <!-- Support Section -->
@@ -297,7 +316,8 @@
   </main>
 
   <footer>
-    &copy; 2026 Hakuna Games. All rights reserved.
+    <p>&copy; 2026 Hakuna Games. All rights reserved.</p>
+    <p style="margin-top: 0.5rem; font-size: 0.85rem; color: #9CA3AF;">⚡ Vibecoded with love & AI pair programming</p>
   </footer>
 
 </body>
